@@ -1,0 +1,41 @@
+.Modal {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, 0.6);
+}
+
+.ModalMain {
+	position: fixed;
+	background: white;
+	width: 60%;
+	height: auto;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.ModalMain > img {
+	width: -webkit-fill-available;
+	height: 40%;
+}
+
+.ModalMain button {
+	position: fixed;
+	top: 30px;
+	right: 30px;
+	z-index: 110;
+	/* width: 40px; */
+	border-radius: 3px;
+	height: 20px;
+	text-align: center;
+	/* line-height: 30px; */
+	font-size: 14px;
+	background-color: #ffeba7;
+	color: #102770;
+}
+
+.ModalContent {
+}

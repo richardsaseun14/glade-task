@@ -1,0 +1,11 @@
+.Hero {
+	/* display: flex; */
+	padding: 100px 0;
+	/* align-content: center;
+	justify-content: center; */
+}
+
+.Aside {
+	width: 60%;
+	text-align: left;
+}
